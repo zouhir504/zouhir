@@ -1,0 +1,256 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-color: aliceblue;
+}
+header h1 img{
+    vertical-align: middle;
+    margin-top: 2px;
+    width: 60px;
+    height: 60px;
+}
+
+header h1 a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family:monospace;
+    font-size: 30px;
+}
+#home{
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.semenu{
+    display: none;
+}
+a{
+    text-decoration: none;
+}
+.nav ul #li1 ,#li2{
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 18px;
+    padding: 5px 10px;
+    color: black;
+    border-radius: 5px;
+}
+#li2{
+    padding: 5px 10px;
+    background:  #06AEBF;
+    border-radius: 5px;
+    color: white;
+}
+.nav ul {
+    display: inline-flex;
+    list-style: none;
+}
+.nav ul li{
+    margin-right: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.nav ul li:hover .semenu {
+    display: block;
+    position: absolute;
+    margin-top: 6px;
+    margin-left: -35px;
+    background-color: rgb(228, 227, 227);
+    border-radius: 10px;
+}
+.nav ul li:hover .semenu ul {
+    display: block;
+}
+.semenu ul li{
+    font-family: monospace;
+    margin: 10px 5px;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+.semenu ul li:nth-child(1){
+    border-bottom: 1px solid #4481EB;
+}
+.semenu a{
+    color: black;
+}
+/**/
+
+.imagt
+{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.imagt img{
+    width: 500px;
+    height: 500px;
+}
+.imagt .te{
+    margin-top: 150px;
+    margin-right: 100px;
+}
+.imagt .te h6{
+     font-size: 20px;
+     margin: 10px 0;
+     font-family: monospace;
+     color: #4e4e4e;
+
+}
+.te h3{
+    margin: 10px 0;
+     font-size: 25px;
+     font-family: monospace;
+    font-weight: bold;
+}
+.te p{
+    margin: 15px 0;
+    font-size: 17px;
+    font-family: monospace;
+    color: #4e4e4e;
+}
+.te a{
+    margin-top: 10px;
+    background-color: #FF85FF;
+    color: white;
+     padding: 10px 17px;
+     border-radius: 5px;
+     font-family: monospace;
+   font-size: 18px;
+}
+.te a:hover{
+    color:#FF85FF;
+    background-color: white;
+    border:2px solid #FF85FF;
+    transition:1s;
+}
+body::before{
+    content: '';
+    position: absolute;
+    width: 2000px;
+    height: 2000px;
+    border-radius: 50%;
+    background: linear-gradient(-45deg, #06AEBF, white);
+    top: -5%;
+    right: 36%;
+    transform: translateY(-65%);
+z-index: -1;
+}
+#infos{
+    margin-top: 100px;
+}
+
+/**/
+.divinfo{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    background: linear-gradient(-45deg, #06AEBF,#06AEBF);
+    border-radius: 10px;
+    margin: 10px 200px;
+    padding: 10px;
+    box-shadow: 0.5 1 0.6 0.4 #4481EB;
+}
+.div1{
+    margin-top: 10px;
+    font-family: monospace;
+
+}
+.div1 h3 {
+    color: white;
+    margin: 10px 5px;
+
+}
+.div1 h3{
+    font-size: 30px;
+
+}
+#services{
+ text-align: center;
+ font-family: monospace;
+
+}
+.ti{
+    margin: 20px 10px;
+    
+}
+.ti h6{
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+.ti p{
+    border-bottom: 5px solid #FF85FF;
+    max-width: 150px;
+    margin: auto;
+   border-radius: 10px;
+   margin-bottom: 5px;
+}
+.ti h3{
+    color: rgb(189, 189, 189);
+    margin-bottom: 40px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.ser{
+    width: 300px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px 10px;
+    padding: 10px;
+    border-bottom: 3px solid #06AEBF;
+}
+.ser1{
+
+    width: 300px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px 5px;
+    padding: 10px;
+    border-bottom: 3px solid #06AEBF;
+}
+.ser:hover{
+    transform: translateY(-15px);
+    transition: 1s;
+
+}
+.ser1:hover{
+    transform: translateY(-15px);
+    transition: 1s;
+}
+.ser h4,.ser1 h4{
+  font-size: 20px;
+  margin: 20px 5px 40px 5px;
+}
+.ser p,.ser1 p{
+    color: grey;
+}
+.aboutus{
+    text-align: center;
+    background: white;
+    position: relative;
+   margin: 15px 200px;
+   font-family: monospace;
+  border-radius: 20px;
+  
+}
+#about h3{
+    font-size: 40px;
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+#about p{
+ color: #5F5F5F;
+ font-size: 20px;
+ padding: 30px;
+}
+#about img{
+    position: absolute;
+   left: 160px;
+   transform: translateY(-15px);
+   z-index: 1;
+}
